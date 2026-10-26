@@ -9,8 +9,8 @@
     "lint:fix": "eslint . --fix",
     "format": "prettier . --write",
     "check": "npm run lint && npm run format",
-    "dev": "webpack serve --open --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack serve --open --config config/webpack.dev.js",
+    "build": "webpack --config config/webpack.prod.js",
     "deploy": "npm run build && gh-pages -d dist -b deployment"
   },
   "keywords": [],
