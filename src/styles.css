@@ -131,7 +131,6 @@ header {
 }
 
 /* ===== NAV ==== */
-
 nav {
   display: flex;
   flex-direction: row;
@@ -158,7 +157,6 @@ nav {
 }
 
 /* =====  Pg-Content, Main Wrapper  ==== */
-
 .pg-content {
   min-height: 100vh;
   display: flex;
@@ -166,7 +164,6 @@ nav {
 }
 
 /* ===== MENU OVERLAY ====*/
-
 .menu-overlay {
   position: absolute;
   inset: 0;
@@ -194,7 +191,6 @@ nav {
 }
 
 /* ===== MAIN CONTENT  ====*/
-
 main {
   display: flex;
   flex-direction: column;
@@ -225,17 +221,21 @@ main {
   justify-content: center;
 }
 
+/* ===== Footer ==== */
 footer {
   flex-shrink: 0;
   padding: var(--padding-mobile);
   color: var(--color-accent);
   background-color: var(--color-secondary);
+  font-size: small;
+  display: flex;
+  justify-content: space-between;
 }
 
-.exploreBtn {
-  width: 150px;
-  height: 50px;
-  border-radius: 9999x;
+.left {}
+
+.right {
+  text-align: end;
 }
 
 img {
