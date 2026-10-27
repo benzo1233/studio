@@ -23,6 +23,7 @@
     "eslint": "^10.13.0",
     "gh-pages": "^6.3.0",
     "globals": "^17.13.0",
+    "html-loader": "^5.1.0",
     "html-webpack-plugin": "^5.6.8",
     "prettier": "3.9.10",
     "style-loader": "^4.0.0",
