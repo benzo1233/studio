@@ -77,6 +77,10 @@ h6 {
 }
 
 /* ===== MY STYLES ====*/
+html {
+  background-color: var(--color-primary);
+}
+
 * {
   margin: 0;
   padding: 0;
