@@ -2,48 +2,8 @@ html {
   background-color: var(--color-primary);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/* ===== HEADER ====*/
-header {
-  flex-shrink: 0;
-  background-color: var(--color-primary);
-  color: var(--color-accent);
-}
-
-/* ===== NAV ==== */
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: var(--padding-mobile);
-}
-
 .lily-studio {
   font-size: var(--font-size-xl);
-}
-
-.navbar-1,
-.navbar-2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-}
-
-.navbar-2 {
-  gap: 2rem;
-  justify-content: space-between;
-}
-
-.menu-toggle {
-  background: none;
-  border: none;
-  color: var(--color-accent);
 }
 
 /* =====  Pg-Content, Main Wrapper  ==== */
@@ -51,45 +11,6 @@ nav {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
-
-/* ===== MENU OVERLAY ====*/
-.menu-overlay {
-  position: absolute;
-  inset: 0;
-  /*equivalent to top,bottom,left,right = 0*/
-  z-index: 1000;
-  background-color: var(--color-primary);
-  color: var(--color-dk-primary);
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: none;
-}
-
-.overlay-links {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  gap: 1rem;
-  font-size: var(--font-size-3xl);
-}
-
-.menu-overlay.active {
-  display: flex;
-}
-
-/* ===== MAIN CONTENT  ====*/
-main {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  flex: 1;
-  gap: var(--padding-mobile);
-  padding: var(--padding-mobile);
-  background-color: var(--color-primary);
-  color: var(--color-accent);
 }
 
 .hero-h1 {
@@ -109,42 +30,4 @@ main {
 .hero-img {
   display: flex;
   justify-content: center;
-}
-
-/* ===== Footer ==== */
-footer {
-  flex-shrink: 0;
-  padding: var(--padding-mobile);
-  color: var(--color-accent);
-  background-color: var(--color-secondary);
-  font-size: small;
-  display: flex;
-  justify-content: space-between;
-}
-
-.right {
-  text-align: end;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-.btn {
-  background-color: var(--color-accent);
-  color: var(--color-primary);
-  text-decoration: none;
-  display: block;
-  height: 50px;
-  width: 175px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 9999px;
-}
-
-.nav-links {
-  display: none;
 }

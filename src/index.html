@@ -2,13 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
     <title>Home</title>
-    <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -26,12 +24,12 @@
           </button>
         </div>
 
-        <!-- TODO: for Desktop -->
+        <!-- DESKTOP -->
         <ul class="nav-links" id="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -50,12 +48,13 @@
           <img src="./imgs/homeHero.png" alt="Hero image" />
         </div>
 
+        <!-- MOBILE -->
         <div class="menu-overlay">
           <div class="overlay-links">
-            <a href="index.html">Home</a>
-            <a href="services.html">Services</a>
-            <a href="contact.html">Contact</a>
-            <a href="about.html">About</a>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </div>
         </div>
       </main>
@@ -66,22 +65,14 @@
       <div class="left">
         <p>Lily Studio</p>
         <p>&copy; 2026 Lily Studio</p>
+        <p>(252) 668-2347</p>
       </div>
       <div class="right">
         <p>Lilystudiowilson@gmail.com</p>
-        <p>2302 Nash St N, Wilson, NC 27896</p>
+        <p>2302 Nash St N Suite C, Wilson, NC 27896</p>
         <p>Mon-Fri, 3pm - 9:30pm</p>
         <div>Icons</div>
       </div>
     </footer>
-
-    <script>
-      const toggleMenu = document.querySelector(".menu-toggle");
-      const dropDownMenu = document.querySelector(".menu-overlay");
-
-      toggleMenu.addEventListener("click", () => {
-        const isOpen = dropDownMenu.classList.toggle("active");
-      });
-    </script>
   </body>
 </html>
