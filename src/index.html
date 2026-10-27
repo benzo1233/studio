@@ -1,22 +1,83 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant</title>
-</head>
-
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
     <header>
-        <h1 style="font-weight: 50; text-align: center;">Per Se</h1>
-        <nav>
-            <button id="home">Home</button>
-            <button id="menu">Menu</button>
-            <button id="about">Contact</button>
-        </nav>
-    </header>
-    <div id="content"></div>
-</body>
+      <nav class="navbar">
+        <div class="navbar-1">
+          <p class="lily-studio">Lily Studio</p>
+        </div>
+        <div class="navbar-2">
+          <button class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
 
+        <!-- TODO: for Desktop -->
+        <!-- <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul> -->
+      </nav>
+    </header>
+
+    <div class="pg-content">
+      <main id="hero-section">
+        <div class="hero-txt">
+          <h1 class="hero-h1">Beauty care, on your terms.</h1>
+          <p>
+            A welcoming space for personalized treatments and a little time for
+            yourself.
+          </p>
+          <a href="services.html" class="btn">Explore Services</a>
+        </div>
+        <div class="hero-img">
+          <img src="./imgs/homeHero.png" alt="Hero image" />
+        </div>
+
+        <div class="menu-overlay">
+          <div class="overlay-links">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!-- FAILS WCAG CONTRAST -->
+    <footer id="footer">
+      <div class="left">
+        <p>Lily Studio</p>
+        <p>&copy; 2026 Lily Studio</p>
+      </div>
+      <div class="right">
+        <p>Lilystudiowilson@gmail.com</p>
+        <p>2302 Nash St N, Wilson, NC 27896</p>
+        <p>Mon-Fri, 3pm - 9:30pm</p>
+        <div>Icons</div>
+      </div>
+    </footer>
+
+    <script>
+      const toggleMenu = document.querySelector(".menu-toggle");
+      const dropDownMenu = document.querySelector(".menu-overlay");
+
+      toggleMenu.addEventListener("click", () => {
+        const isOpen = dropDownMenu.classList.toggle("active");
+      });
+    </script>
+  </body>
 </html>
