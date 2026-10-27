@@ -14,6 +14,18 @@ export default {
     new HtmlWebpackPlugin({
       template: "./src/index.html",
     }),
+    new HtmlWebpackPlugin({
+      filename: "services.html",
+      template: "./src/services.html",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "contact.html",
+      template: "./src/contact.html",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "about.html",
+      template: "./src/about.html",
+    }),
   ],
   module: {
     rules: [
