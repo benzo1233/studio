@@ -30,15 +30,6 @@ export default {
   module: {
     rules: [
       {
-        test: /\.html$/i,
-        loader: "html-loader",
-        options: {
-          sources: {
-            list: [{ tag: "img", attribute: "src", type: "src" }],
-          },
-        },
-      },
-      {
         test: /\.css$/i,
         use: ["style-loader", "css-loader"],
       },
