@@ -127,7 +127,7 @@ h6 {
 header {
   flex-shrink: 0;
   background-color: var(--color-primary);
-  color: var(--color-accent)
+  color: var(--color-accent);
 }
 
 /* ===== NAV ==== */
@@ -231,8 +231,6 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-
-.left {}
 
 .right {
   text-align: end;
