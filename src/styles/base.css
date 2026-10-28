@@ -94,12 +94,12 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   padding: var(--padding-mobile);
-  color: var(--color-accent);
+  color: var(--color-text);
 }
 
 .nav-links a {
   text-decoration: none;
-  color: var(--color-accent);
+  color: var(--color-text);
 }
 
 .navbar-1,
@@ -119,12 +119,12 @@ nav {
 .menu-toggle {
   background: none;
   border: none;
-  color: var(--color-accent);
+  color: var(--color-text);
 }
 
 /* ===== MENU OVERLAY ====*/
 .menu-overlay {
-  position: absolute;
+  position: fixed;
   inset: 0;
   /*equivalent to top,bottom,left,right = 0*/
   z-index: 1000;
@@ -145,11 +145,10 @@ nav {
   font-size: var(--font-size-3xl);
   text-decoration: none;
   list-style: none;
-  transform: translateY(-8vh);
 }
 
 .overlay-links li a {
-  color: var(--color-accent);
+  color: var(--color-text);
   text-decoration: none;
 }
 
@@ -171,13 +170,13 @@ main {
 
 /* ===== Footer ==== */
 footer {
-  flex-shrink: 0;
-  padding: var(--padding-mobile);
-  color: var(--color-accent);
-  background-color: var(--color-secondary);
-  font-size: small;
   display: flex;
   justify-content: space-between;
+  font-size: small;
+  flex-shrink: 0;
+  padding: var(--padding-mobile);
+  color: var(--color-text);
+  background-color: var(--color-secondary);
 }
 
 .right {
