@@ -256,3 +256,24 @@ img {
   background-color: rgba(128, 128, 128, 0.214);
   border-radius: 9999px;
 }
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: end;
+  align-items: center;
+  padding: .5rem;
+}
+
+.icon {
+  height: 32px;
+  width: 32px;
+  background-color: inherit;
+  color: var(--color-accent);
+}
+
+.icon svg {
+  height: 32px;
+  width: 32px;
+}
