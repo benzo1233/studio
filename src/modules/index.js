@@ -3,6 +3,7 @@ import "../styles/home.css";
 import "../styles/globals.css";
 import "../styles/responsive.css";
 import "../styles/services.css";
+import "../styles/contact.css";
 import { spaServices, waxServices, browLashServices } from "./info.js";
 
 const toggleMenu = document.querySelector(".menu-toggle");

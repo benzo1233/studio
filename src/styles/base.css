@@ -242,7 +242,7 @@ img {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #f1f1f1
+  background-color: #f1f1f1;
 }
 
 /* Show the dropdown content on hover */
@@ -262,7 +262,7 @@ img {
   gap: 1rem;
   justify-content: end;
   align-items: center;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .icon {
