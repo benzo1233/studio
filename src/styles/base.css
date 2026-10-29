@@ -102,8 +102,8 @@ nav {
   color: var(--color-text);
 }
 
-.navbar-1,
-.navbar-2 {
+.navbar-brand,
+.navbar-actions {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -111,7 +111,7 @@ nav {
   padding: 1rem;
 }
 
-.navbar-2 {
+.navbar-actions {
   gap: 2rem;
   justify-content: space-between;
 }
@@ -137,7 +137,7 @@ nav {
   display: none;
 }
 
-.overlay-links {
+.menu-overlay-links {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -147,7 +147,7 @@ nav {
   list-style: none;
 }
 
-.overlay-links li a {
+.menu-overlay-links li a {
   color: var(--color-text);
   text-decoration: none;
 }
@@ -179,7 +179,7 @@ footer {
   background-color: var(--color-secondary);
 }
 
-.right {
+.footer-info {
   text-align: end;
 }
 

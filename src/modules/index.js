@@ -78,11 +78,11 @@ const services = [
 //   },
 // ];
 
-const cardGrid = document.querySelector(".body");
+const cardGrid = document.querySelector(".service-card-grid");
 
 if (cardGrid) {
   cardGrid.innerHTML = services
     .map((card) => createCard(card.title, card.description, card.note))
     .join("");
-    // We need join here bc innerhtml expects one long html string
+  // We need join here bc innerhtml expects one long html string
 }
