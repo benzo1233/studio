@@ -1,4 +1,14 @@
 /* ===== GLOBALS ==== */
+@font-face {
+  font-family: "Bodoni";
+  src:
+    url("../fonts/Bodoni/Bodoni.woff2") format("woff2"),
+    url("../fonts/Bodoni/Bodoni.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --color-primary: #4c6d7e;
   --color-dk-primary: #184e69;
@@ -12,8 +22,7 @@
   --spacing-md: 16px;
   --spacing-lg: 32px;
 
-  --font-stylistic: Canela, Bodoni72;
-  --font-main: Arial, sans-serif;
+  --font-heading: "Bodoni";
 
   --font-size-xs: 0.75rem;
   /* 12px */

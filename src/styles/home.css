@@ -4,6 +4,8 @@ html {
 
 .navbar-logo {
   font-size: var(--font-size-xl);
+  font-family: var(--font-heading);
+  font-weight: 100;
 }
 
 /* =====  Pg-Content, Main Wrapper  ==== */
@@ -16,7 +18,8 @@ html {
 .hero-h1 {
   font-size: var(--font-size-5xl);
   line-height: 1.2;
-  font-family: none;
+  font-family: var(--font-heading);
+  font-weight: 400;
 }
 
 .hero-txt {
