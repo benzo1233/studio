@@ -1,0 +1,32 @@
+/* homepage: desktop hero layout */
+
+html {
+  background-color: var(--color-primary);
+}
+
+@media (min-width: 668px) {
+  .hero-txt {
+    width: 20vw !important;
+  }
+
+  .hero-txt,
+  .hero-img {
+    flex: 1;
+    transform: translateY(-5rem);
+  }
+
+  .hero-txt h1,
+  .hero-txt p {
+    width: 500px !important;
+  }
+
+  .hero-img {
+    justify-content: end;
+  }
+
+  .hero-img img {
+    min-height: 80vh;
+    width: auto;
+    object-fit: cover;
+  }
+}

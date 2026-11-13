@@ -1,0 +1,9 @@
+.service-content {
+  flex-direction: column;
+  align-items: start;
+}
+
+.service-footer {
+  --color-secondary: #184e69;
+  --color-text: #fff5d6;
+}

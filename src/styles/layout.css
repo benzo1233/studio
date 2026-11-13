@@ -1,0 +1,56 @@
+/* ===== HEADER ====*/
+header {
+  flex-shrink: 0;
+  background-color: var(--color-primary);
+  color: var(--color-accent);
+}
+
+/* ===== MAIN CONTENT  ====*/
+main {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 1;
+  gap: var(--padding-mobile);
+  padding: var(--padding-mobile);
+  background-color: var(--color-primary);
+  color: var(--color-accent);
+}
+
+/* =====  Pg-Content, Main Wrapper  ==== */
+.pg-content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== Footer ==== */
+footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: small;
+  flex-shrink: 0;
+  padding: var(--padding-mobile);
+  color: var(--color-text);
+  background-color: var(--color-secondary);
+}
+
+.footer-info {
+  text-align: end;
+}
+
+/* ===== MISC ==== */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (min-width: 668px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 4.375rem;
+  } 
+}

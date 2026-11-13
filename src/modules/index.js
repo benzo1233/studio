@@ -1,11 +1,10 @@
-import "../styles/base.css";
-import "../styles/home.css";
-import "../styles/globals.css";
-import "../styles/responsive.css";
-import "../styles/services.css";
-import "../styles/contact.css";
-import "../styles/wax.css"
-import { spaServices, waxServices, browLashServices, permBrowServices } from "./info.js";
+import "../styles/main.css";
+import {
+  spaServices,
+  waxServices,
+  browLashServices,
+  permBrowServices,
+} from "./info.js";
 
 const toggleMenu = document.querySelector(".menu-toggle");
 const dropDownMenu = document.querySelector(".menu-overlay");

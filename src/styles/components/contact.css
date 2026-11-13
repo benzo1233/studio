@@ -13,7 +13,29 @@
   align-items: center;
   gap: 1rem;
 }
+
 .contact-card {
   display: flex;
   flex-direction: column;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: end;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.icon {
+  height: 32px;
+  width: 32px;
+  background-color: inherit;
+  color: var(--color-accent);
+}
+
+.icon svg {
+  height: 32px;
+  width: 32px;
 }

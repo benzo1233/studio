@@ -1,14 +1,4 @@
-/* ===== GLOBALS ==== */
-@font-face {
-  font-family: "Bodoni";
-  src:
-    url("../fonts/Bodoni/Bodoni.woff2") format("woff2"),
-    url("../fonts/Bodoni/Bodoni.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
+/* ===== DESIGN TOKENS (custom css vars) ===== */
 :root {
   --color-primary: #4c6d7e;
   --color-dk-primary: #184e69;
@@ -47,4 +37,12 @@
   --font-size-hero: 4.5rem;
 
   --border-radius: 8px;
+}
+
+.service-page {
+  --color-primary: #fff5d6;
+  --color-dk-primary: #184e69;
+  --color-secondary: #74959d;
+  --color-accent: #184e69;
+  --color-text: #184e69;
 }
