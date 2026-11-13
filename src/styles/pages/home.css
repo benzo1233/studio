@@ -1,9 +1,5 @@
 /* homepage: desktop hero layout */
 
-html {
-  background-color: var(--color-primary);
-}
-
 @media (min-width: 668px) {
   .hero-txt {
     width: 20vw !important;

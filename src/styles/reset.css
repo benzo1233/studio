@@ -75,3 +75,8 @@ h6 {
 #__next {
     isolation: isolate;
 }
+
+/* special html tag below is to fill in color for the sides of Dynamic Island for iphones */
+html {
+    background-color: var(--color-primary);
+}

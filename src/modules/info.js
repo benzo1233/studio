@@ -31,51 +31,65 @@ export const spaServices = [
   },
 ];
 
+export const addons = [
+  {
+    title: "Facial Add On",
+    description:
+      "Enhance your head spa with a refreshing facial for added relaxation and glow.",
+  },
+  {
+    title: "Scalp Exfoliate Add On",
+    description: "Removes buildup and promotes a healthier, cleaner scalp.",
+  },
+  {
+    title: "Steam with Deep Conditioning Mask",
+    description:
+      "Deeply hydrates, strengthens and restores softer, healthier hair.",
+  },
+  {
+    title: "Blow Dry",
+    description: "Does not include styling.",
+  },
+];
+
 export const waxServices = [
   {
     title: "Face",
-    item1: "Eyebrow Wax",
-    item2: "Lip Wax",
-    item3: "Sideburns",
-    item4: "Full Face",
-    item5: "Nose",
+    items: ["Eyebrow Wax", "Sideburns", "Lip Wax", "Full Face", "Nose"],
   },
   {
     title: "Arms",
-    item1: "Half Arms",
-    item2: "Full Arms",
+    items: ["Half Arms", "Full Arms"],
   },
   {
     title: "Legs",
-    item1: "Half Legs",
-    item2: "Full Legs",
+    items: ["Half Legs", "Full Legs"],
   },
   {
     title: "Body",
-    item1: "Under Arms",
-    item2: "Bikini",
-    item3: "French Bikini",
-    item4: "Brazilian",
-    item5: "Back",
+    items: ["Under Arms", "Bikini", "French Bikini", "Brazilian", "Back"],
   },
   {
     title: "Special Combos",
-    item1: "Brow and Lip",
-    item2: "Full ace and Brow",
-    item3: "Underarm and Bikini",
-    item4: "Brazilian and underarm",
+    items: [
+      "Brow and Lip",
+      "Full ace and Brow",
+      "Underarm and Bikini",
+      "Brazilian and underarm",
+    ],
   },
 ];
 
 export const permBrowServices = [
   {
-    title: "Permanent Brow Artistry",
-    item1: "Microshading Eyebrows (New Set)",
-    item2: "Microshading Eyebrows (Fill in)",
-    item3: "Microblading / Hair-stroke Eyeblows (New Set)",
-    item4: "Microblading Eyebrows (Fill in)",
-    item5: "Combination microshading and microblading Eyebrows (New Set)",
-    item6: "Combination microshading and microblading Eyebrows (Fill In)",
+    items: [
+      "Microshading Eyebrows (New Set)",
+      "Microshading Eyebrows (Fill in)",
+      "Microblading / Hair-stroke Eyeblows (New Set)",
+      "Microblading Eyebrows (Fill in)",
+      "Combination microshading and microblading Eyebrows (New Set)",
+      "Combination microshading and microblading Eyebrows (Fill In)",
+    ],
   },
 ];
 
