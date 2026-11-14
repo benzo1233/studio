@@ -1,4 +1,4 @@
-// Spa Services Page
+// ===== Spa Services Page ====
 export const spaServices = [
   {
     title: "Mini Head Spa (30min)",
@@ -53,7 +53,7 @@ export const addons = [
   },
 ];
 
-// Wax Service Page
+// ===== Wax Service Page ====
 
 export const waxServices = [
   {
@@ -83,7 +83,7 @@ export const waxServices = [
   },
 ];
 
-// Permant Brow Services & Lash and Brow Services
+//  ===== Permant Brow Services & Lash and Brow Services ====
 
 export const permBrowServices = [
   {
