@@ -20,11 +20,36 @@
             <i class="fa-solid fa-bars"></i>
           </button>
         </div>
-
-        <!-- TODO: for Desktop -->
+        <!-- MOBILE -->
+        <div class="menu-overlay">
+          <button
+            type="button"
+            onclick="this.parentElement.classList.remove('active')"
+            class="navCloseBtn"
+          >
+            <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+          </button>
+          <div class="menu-overlay-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </div>
+        </div>
+        <!-- DESKTOP -->
         <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
+          <!-- <li><a href="services.html">Services</a></li> -->
+
+          <div class="dropdown">
+            <button class="dropbtn">Services</button>
+            <div class="dropdown-content">
+              <a href="services.html">Headspa</a>
+              <a href="wax.html">Wax</a>
+              <a href="brows.html">Brows & Lashes</a>
+            </div>
+          </div>
+
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>

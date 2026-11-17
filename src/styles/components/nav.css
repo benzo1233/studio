@@ -125,6 +125,20 @@ nav {
   border-radius: 9999px;
 }
 
+.navCloseBtn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: 0;
+  color: var(--color-text);
+  cursor: pointer;
+  height: 42px;
+  width: 42px;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
 @media (min-width: 668px) {
   .menu-toggle {
     display: none;
