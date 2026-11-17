@@ -39,10 +39,19 @@
   --border-radius: 8px;
 }
 
-.service-page {
+.service-page,
+.brow-page {
   --color-primary: #fff5d6;
   --color-dk-primary: #184e69;
   --color-secondary: #74959d;
   --color-accent: #184e69;
   --color-text: #184e69;
+}
+
+.wax-page {
+  --color-primary: #4c6d7e;
+  --color-dk-primary: #184e69;
+  --color-secondary: #74959d;
+  --color-accent: #fff5d6;
+  --color-text: #fff5d6;
 }
