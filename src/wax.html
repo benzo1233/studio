@@ -23,12 +23,28 @@
 
         <!-- MOBILE -->
         <div class="menu-overlay">
-          <div class="menu-overlay-links">
+          <button
+            type="button"
+            onclick="this.parentElement.classList.remove('active')"
+            class="navCloseBtn"
+          >
+            <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+          </button>
+          <ul class="menu-overlay-links">
             <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
+            <li>
+              <span class="mobile-services-label">
+                Services <span class="mobile-services-arrow" aria-hidden="true">&#9660;</span>
+              </span>
+              <ul class="mobile-service-links">
+                <li><a href="services.html">Headspa</a></li>
+                <li><a href="wax.html">Wax</a></li>
+                <li><a href="brows.html">Brows &amp; Lashes</a></li>
+              </ul>
+            </li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
-          </div>
+          </ul>
         </div>
         <!-- TODO: for Desktop -->
         <ul class="nav-links">

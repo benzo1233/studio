@@ -50,6 +50,7 @@ nav {
   z-index: 1000;
   background-color: var(--color-primary);
   color: var(--color-dk-primary);
+  /* overflow-y: auto; */
 
   display: flex;
   justify-content: center;
@@ -69,11 +70,36 @@ nav {
   font-size: var(--font-size-3xl);
   text-decoration: none;
   list-style: none;
+  /* keep aligned */
+  margin: auto;
+  padding: 4rem 0 1rem;
 }
 
 .menu-overlay-links li a {
   color: var(--color-text);
   text-decoration: none;
+}
+
+.mobile-services-label {
+  color: var(--color-text);
+}
+
+.mobile-services-arrow {
+  font-size: 1.25rem;
+}
+
+.mobile-service-links {
+  list-style: none;
+  padding: 0;
+  font-size: 1.25rem;
+}
+
+.mobile-service-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
 }
 
 /* DROPDOWN from w3c*/
