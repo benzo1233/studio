@@ -26,6 +26,14 @@ export default {
       filename: "about.html",
       template: "./src/about.html",
     }),
+    new HtmlWebpackPlugin({
+      filename: "brows.html",
+      template: "./src/brows.html",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "wax.html",
+      template: "./src/wax.html",
+    }),
   ],
   module: {
     rules: [
